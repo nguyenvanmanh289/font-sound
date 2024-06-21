@@ -3,7 +3,11 @@ import {Header} from "../index.js"
 export default function Banner(){
     return(
         <div className="banner">
-            <Header/>
+            <div className="header-nav">
+                <Header />
+            </div>
+            
+            <h1>funny sound</h1>
         </div>
     );
 }
